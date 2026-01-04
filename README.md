@@ -1,5 +1,6 @@
 Weather App 🌤️
-A sleek, real-time weather forecasting application built with Flutter. This app provides accurate weather data, including temperature, humidity, and wind conditions, using a minimalist Material 3 design.
+A sleek, real-time weather forecasting application built with Flutter. 
+This app provides accurate weather data, including temperature, humidity, and wind conditions, using a minimalist Material 3 design.
 
 ✨ Features
 .Real-time Weather: Get current weather conditions for your specific location.
@@ -16,7 +17,7 @@ Home Screen	Search View	Settings
 .Dart: The programming language behind Flutter.
 .OpenWeatherMap API: Data source for global weather information.
 .Provider/Riverpod: State management (choose whichever you used).
-.Geolocator: To fetch user's current GPS coordinates.
+.Geolocator: To fetch the user's current GPS coordinates.
 
 🚀 Getting Started
 Follow these steps to run the project on your local machine.
@@ -28,7 +29,7 @@ Prerequisites
 
 Installation
 Clone the Repository:
-```bash
+```
 git clone git@github.com-shyammohanazad:shyammohanazad/weather_app.git
 cd weather_app
 ```
@@ -40,9 +41,8 @@ flutter pub get
 
 Configure API Key:
 Create a .env file in the root directory (or update your config file) and 
-
-```ini
-add your key:
+Add your key:
+```
 env
 OPENWEATHER_API_KEY=your_api_key_here
 ```
