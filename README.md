@@ -1,73 +1,16 @@
-Weather App 🌤️
-A sleek, real-time weather forecasting application built with Flutter. This app provides accurate weather data, including temperature, humidity, and wind conditions, using a minimalist Material 3 design.
+# weather_app
 
-✨ Features
-.Real-time Weather: Get current weather conditions for your specific location.
-.Dynamic Backgrounds: UI colors and icons change based on the weather (e.g., sunny, rainy, or cloudy).
-.Detailed Metrics: View humidity, wind speed, and pressure.
-.Search Functionality: Find weather information for any city globally.
-.Responsive Design: Optimized for iOS, Android, and Web.
+A new Flutter project.
 
-📸 Screenshots
-Home Screen	Search View	Settings
+## Getting Started
 
-🛠️ Built With
-.Flutter: Cross-platform UI toolkit.
-.Dart: The programming language behind Flutter.
-.OpenWeatherMap API: Data source for global weather information.
-.Provider/Riverpod: State management (choose whichever you used).
-.Geolocator: To fetch user's current GPS coordinates.
+This project is a starting point for a Flutter application.
 
-🚀 Getting Started
-Follow these steps to run the project on your local machine.
+A few resources to get you started if this is your first Flutter project:
 
-Prerequisites
-.Flutter SDK (v3.x or later)
-.A Code Editor (VS Code or Android Studio)
-.An API Key from OpenWeatherMap
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Installation
-Clone the Repository:
-```bash
-git clone git@github.com-shyammohanazad:shyammohanazad/weather_app.git
-cd weather_app
-```
-
-Install Dependencies:
-```bash
-flutter pub get
-```
-
-Configure API Key:
-Create a .env file in the root directory (or update your config file) and 
-
-```ini
-add your key:
-env
-OPENWEATHER_API_KEY=your_api_key_here
-```
-
-Run the App:
-
-`flutter run`
-
-
-📂 Project Structure
-```
-lib/
-├── api/             # API service and network calls
-├── models/          # Data models for Weather and Forecast
-├── providers/       # State management logic
-├── screens/         # UI Screen widgets (Home, Search, etc.)
-├── widgets/         # Reusable UI components
-└── main.dart        # Application entry point
-```
-
-
-🛡️ License
-Distributed under the MIT License. See LICENSE for more information.
-👤 Contact
-Shyam Mohan Azad
-GitHub: @shyammohanazad
-Email: shyamthesisid@gmail.com
-Created with ❤️ using Flutter in 2026.
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
