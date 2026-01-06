@@ -1,3 +1,5 @@
+import 'package:weather_app/next_7_days.dart';
+
 import 'imports.dart';
 
 class UserWeatherApp extends StatelessWidget {
@@ -11,7 +13,8 @@ class UserWeatherApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Weather App'),
+      // home: const MyHomePage(title: 'Weather App'),
+      home: const Next7Days(),
     );
   }
 }
