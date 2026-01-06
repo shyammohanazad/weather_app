@@ -1,0 +1,57 @@
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Dart
+.packages
+.pub/
+.pub-cache/
+
+# Android
+.gradle/
+local.properties
+*.log
+
+# iOS
+Pods/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xcuserstate
+*.xccheckout
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build outputs
+/build/
+/build/**
+*.apk
+*.aab
+*.ipa
+
+# Generated files
+/generated/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Environment
+.env
+
+# Temporary files
+*.tmp
+*.temp
